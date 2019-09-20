@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,65 +14,218 @@
 </head>
 
 <body>
+  <video autoplay muted loop id="myVideo">
+    <source src="images/droneFootage.mp4" type="video/mp4">
+  </video>
   <div class="main-wrapper">
-  <header id="main-header">
-  <nav id="navbar">
-    <div class="container">
-      <ul>
-        <div class="burger open">
-          <i class="fa fa-bars fa-lg"></i>
-        </div>
-        
-        <div class="nav-list">
-            <div class="menu-icons close">
-                <i class="fa fa-window-close fa-lg"></i>
+    <header id="main-header">
+      <nav id="navbar">
+        <div class="container">
+          <ul>
+            <h1 id="company-name">ACME Oil CO</h1>
+            <div class="burger open">
+              <i class="fa fa-bars fa-lg"></i>
             </div>
-          <li><a href="*">About Us</li></a>
-          <li><a href="*">Services</li></a>
-          <li><a href="*">Our Work</li></a>
-          <li><a href="*">Contact</li></a>
-            <div class="socials">
-              <a class="fa fa-twitter"href="www.twitter.com"></a>&nbsp; &nbsp; 
-              <a class="fa fa-instagram"href="www.twitter.com"></a>&nbsp; &nbsp; 
-              <a class="fa fa-facebook"href="www.twitter.com"></a>&nbsp; &nbsp; 
-              <a class="fa fa-linkedin"href="www.twitter.com"></a>&nbsp; &nbsp; 
-            </div>
-        </div>
-      </ul>
-    </div>
-  </nav>
-  </header>
 
-  <section class="section2">
-    <div class="main">
-      <div class="left">
-          <h1 id="company-name">ACME Oil CO</h1>
+            <div class="nav-list">
+              <div class="menu-icons close">
+                <i class="fa fa-window-close fa-7x"></i>
+              </div>
+              <li><a href="*">About Us</li></a>
+              <li><a href="*">Services</li></a>
+              <li><a href="*">App</li></a>
+              <li><a href="*">Contact</li></a>
+              <div class="socials">
+                <a class="fa fa-twitter" href="www.twitter.com"></a>&nbsp; &nbsp;
+                <a class="fa fa-instagram" href="www.instagram.com"></a>&nbsp; &nbsp;
+                <a class="fa fa-facebook" href="www.facebook.com"></a>&nbsp; &nbsp;
+                <a class="fa fa-linkedin" href="www.linkedin.com"></a>&nbsp; &nbsp;
+              </div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section2">
+      <div class="main">
+        <div class="left">
           <h1>Next Level <br> Innovation & Technology</h1>
           <hr>
           <h2>We have the vision for an innovative approach to an <br>
-          otherwise antiquated industry - more importantly, we get resutls.</h2>
-          <button>Let's get started</button>
-      </div>
+            otherwise antiquated industry - more importantly, we get resutls.</h2>
+          <button href="www.google.com" target="_blank" >Let's get started</button>
+        </div>
 
-      <div class="right">
-        <img src="./images/playBTN.png"></img>
+        <div class="right">
+            <i class="fa fa-play-circle" onclick="alert('NOT UP IN HERE!');"></i>
+          <!-- <img src="./images/playBTN.png"></img> -->
+        </div>
+      </div>
+    </section>
+
+    <div class="bottom">
+      <div class="left">
+        <!-- <h3>We've built solutions for...</h3> -->
+      </div>
+      <!-- <h3 class="customer-icons"></h3> -->
+      <!-- <div class="right">
+            <img src="images/army.png" alt="army"></img>
+            <img src="images/mattel.png" alt="mattel"></img>
+            <img src="images/royole.png" alt="royole"></img>
+      </div> -->
+    </div>
+  </div>
+
+  <section class="awards-wrapper">
+    <div class="awards">
+      <h1 class="heading">
+        <!-- We're going to pump our own tires for a second... -->
+      </h1>
+      <div class="icons">
+        <div>
+          <p class="fa fa-reddit-alien fa-5x"></p>
+          <h3>Best in show and services.  
+          </h3>
+        </div>
+        <div>
+          <p class="fa fa-address-book fa-5x"></p>
+          <h3>10000's of contacts. 
+          </h3>
+        </div>
+        <div>
+          <p class="fa fa-bitcoin fa-5x"></p>
+          <h3>Leveraging blockchain technology.</h3>
+        </div>
       </div>
     </div>
   </section>
 
-  <div class="bottom">
-      <div class="left">        
-        <h3>We've built solutions for...</h3>
-      </div>
-        <!-- <h3 class="customer-icons"></h3> -->
-      <div class="right">
-            <p>First</p>
-            <p>Second</p>
-            <p>Third</p>
-      </div>
-  </div>
-</div>
+<!-- ABOUT US SECTION -->
 
-<script type="text/javascript" src="main.js"></script>
+<section id="about-us">
+  <div class="about-us-header">
+    <h1>Want to know more?</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+       Aspernatur quo ipsa a maxime nisi dignissimos, nobis et <br>
+        quos nulla laborum, expedita perspiciatis ducimus, <br>
+         voluptatibus temporibus quae porro soluta nihil dolor?</p>
+    <button id="about-us-btn">Learn More</button>
+  </div>
+  <div class="founder">
+    <img src="images/founder.png" alt="CEO">
+  </div>
+</section>
+
+<!-- END OF ABOUT US SECTION -->
+
+<!-- TESTIMONIAL 1 SECTION  -->
+
+<section id="testimonial">
+  <div class="testimonial-header">
+    <img src="images/testimonial.png" alt="testDoe">
+    <h1>"ACME Company is the best company ever and I will only do business with them. <br> 
+      Felt right at home from day one and will continue to work with them."
+    </h1>
+    <div class="name-title">
+      <h3>John Doe / Chief Technology Officer at <span style="color: gray">Oil Company</span></h3>
+    </div>
+  </div>
+</section>
+
+<!-- END OF TESTIMONIAL 1 SECTION  -->
+
+<!-- SERVICES SECTION -->
+
+<section id="services-wrapper">
+    <div class="services">
+        <h1 class="heading">
+          Comprehensive Services
+        </h1>
+        <h3 class="explanation">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ipsum in nemo accusamus harum quaerat quod totam, voluptate ab hic fugiat quia sint minus impedit possimus quibusdam, rem blanditiis odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsa non nihil animi. Totam eum ducimus distinctio, corporis soluta in ratione expedita inventore, reprehenderit dolorem est ut? Consectetur, tenetur ullam?
+        </h3>
+        <div class="icons2">
+          <div>
+            <p class="fa fa-flask fa-5x"></p>
+            <h3>As voted on by our community, best in show and services.  At ACME, 
+              you are not just another number, we're here for every step of the way.
+            </h3>
+          </div>
+          <div>
+            <p class="fa fa-laptop fa-5x"></p>
+            <h3>Because we're such a big deal, we have lots of friends and can leverage our 
+              rolodex for your benefit.  Success travels in groups, so don't miss out. 
+            </h3>
+          </div>
+          <div>
+            <p class="fa fa-bar-chart fa-5x"></p>
+            <h3>As a progressive company, we also accept bitcoin as a form of payment.  
+            Stay tuned too, we have a major announcement regarding blockchain technology...</h3>
+          </div>
+          <div>
+              <p class="fa fa-database fa-5x"></p>
+              <h3>Because we're such a big deal, we have lots of friends and can leverage our 
+                roladex for your benefit.  Success travels in groups, so don't miss out. 
+              </h3>
+            </div>
+        </div>
+      </div>
+</section>
+
+<!--  END OF SERVICES SECTION -->
+
+<!-- START OF APP SECTION -->
+<section class="main-tech">
+  <div id="tech-wrapper">
+    <div class="left-box">
+    <div class="tech">
+      <h3>Most innovative tech in the industry</h3>
+      <h1>POWERED BY BLOCKCHAIN</h1>
+      <hr class="techhr">
+      <h4 class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem cupiditate ab culpa delectus ipsum sit officiis, aliquid voluptates nobis neque eum, deleniti natus. 
+        A nobis velit quae eligendi! Libero.</h4>
+    
+      <button>find out how</button>
+    </div>
+    </div>
+    <div class="right-box">
+      <img src="images/app.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- test comment -->
+
+<section id="last">
+<h1>test</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti exercitationem, incidunt cupiditate consequatur corrupti odio nulla adipisci ipsum, dolore cumque, quod perspiciatis aut. Et temporibus cum, nulla exercitationem dicta quas!</p>
+</section>
+
+
+
+
+
+<!-- <section id="testimonial-2">
+    <div class="testimonial-header2">
+      <img src="images/testimonial.png" alt="testDoe">
+      <h1>"ACME Company is the best company ever and I will only do business with them. <br> 
+        Felt right at home from day one and will continue to work with them."
+      </h1>
+      <div class="name-title2">
+        <h3>John Doe / Chief Technology Officer at <span style="color: gray">Oil Company</span></h3>
+      </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>
