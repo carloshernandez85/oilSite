@@ -1,6 +1,7 @@
 # Project Title
 
 Fake Oil Company Site!  Let's take an industry that could really use website updates and see what we can do...
+Also, the site had a fixed background as drone footage of an oil rig but the file(s) are too big for personal pages :( 
 
 ## Getting Started
 
