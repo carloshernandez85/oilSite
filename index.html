@@ -31,16 +31,16 @@
               <div class="menu-icons close">
                 <i class="fa fa-window-close fa-7x"></i>
               </div>
-              <li><a href="*">About Us</li></a>
-              <li><a href="*">Services</li></a>
-              <li><a href="*">App</li></a>
-              <li><a href="*">Contact</li></a>
-              <div class="socials">
-                <a class="fa fa-twitter" href="www.twitter.com"></a>&nbsp; &nbsp;
+              <li><a href="javascript: scrollToElement1();">About Us</li></a>
+              <li><a href="javascript: scrollToElement2();">Services</li></a>
+              <li><a href="javascript: scrollToElement3();">App</li></a>
+              <li><a href="javascript: scrollToElement4();">Contact</li></a>
+              <!-- <div class="socials">
+                <a class="fa fa-twitter" href="www.twitter.com" ></a>&nbsp; &nbsp;
                 <a class="fa fa-instagram" href="www.instagram.com"></a>&nbsp; &nbsp;
                 <a class="fa fa-facebook" href="www.facebook.com"></a>&nbsp; &nbsp;
                 <a class="fa fa-linkedin" href="www.linkedin.com"></a>&nbsp; &nbsp;
-              </div>
+              </div> -->
             </div>
           </ul>
         </div>
@@ -54,7 +54,7 @@
           <hr>
           <h2>We have the vision for an innovative approach to an <br>
             otherwise antiquated industry - more importantly, we get resutls.</h2>
-          <button href="www.google.com" target="_blank" >Let's get started</button>
+          <button href="www.google.com" target="_blank" onclick="scrollToElement4();" >Let's get started</button>
         </div>
 
         <div class="right">
@@ -98,8 +98,14 @@
           <h3>Leveraging blockchain technology.</h3>
         </div>
       </div>
+      <!-- <h3 class="customer-icons"></h3> -->
+      <!-- <div class="right">
+            <img src="images/army.png" alt="army"></img>
+            <img src="images/mattel.png" alt="mattel"></img>
+            <img src="images/royole.png" alt="royole"></img>
+      </div> -->
     </div>
-  </section>
+  </div>
 
 <!-- ABOUT US SECTION -->
 
@@ -110,10 +116,10 @@
        Aspernatur quo ipsa a maxime nisi dignissimos, nobis et <br>
         quos nulla laborum, expedita perspiciatis ducimus, <br>
          voluptatibus temporibus quae porro soluta nihil dolor?</p>
-    <button id="about-us-btn">Learn More</button>
+    <button id="about-us-btn" onclick="scrollToElement4();">Learn More</button>
   </div>
   <div class="founder">
-    <img src="images/founder.png" alt="CEO">
+    <img src="images/founders.png" alt="CEO">
   </div>
 </section>
 
@@ -176,6 +182,7 @@
 <!--  END OF SERVICES SECTION -->
 
 <!-- START OF APP SECTION -->
+
 <section class="main-tech">
   <div id="tech-wrapper">
     <div class="left-box">
@@ -186,41 +193,47 @@
       <h4 class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem cupiditate ab culpa delectus ipsum sit officiis, aliquid voluptates nobis neque eum, deleniti natus. 
         A nobis velit quae eligendi! Libero.</h4>
     
-      <button>find out how</button>
+      <button onclick="scrollToElement4();">find out how</button>
     </div>
     </div>
     <div class="right-box">
-      <img src="images/app.png" alt="">
+      <img src="images/smartPhone3.png" alt="smartphone">
     </div>
   </div>
 </section>
 
-<!-- test comment -->
+<!-- END OF APP SECTION -->
 
-<section id="last">
-<h1>test</h1>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti exercitationem, incidunt cupiditate consequatur corrupti odio nulla adipisci ipsum, dolore cumque, quod perspiciatis aut. Et temporibus cum, nulla exercitationem dicta quas!</p>
-</section>
+<!-- START OF THE TESTIMONIAL 2 SECTION -->
 
-
-
-
-
-<!-- <section id="testimonial-2">
+<section id="testimonial-2">
     <div class="testimonial-header2">
-      <img src="images/testimonial.png" alt="testDoe">
+      <img src="images/testimonial4.png" alt="testDoe">
       <h1>"ACME Company is the best company ever and I will only do business with them. <br> 
         Felt right at home from day one and will continue to work with them."
       </h1>
       <div class="name-title2">
-        <h3>John Doe / Chief Technology Officer at <span style="color: gray">Oil Company</span></h3>
+        <h3>Jane Doe / Chief Technology Officer at <span style="color: gray">Different Oil Company</span></h3>
       </div>
     </div>
-</section> -->
+</section>
 
+ <!-- END OF TESTIMONIAL 2 SECTION  -->
 
+<section id="contact-us">
+  <div class="contact-section">
+    <h1>Contact Us</h1>
 
-
+    <div class="border"></div>
+      <form class="contact-form" action="index.html" method="post">
+        <input type="text" class="contact-form-text" placeholder="Your Name">    
+        <input type="text" class="contact-form-text" placeholder="Your Email">
+        <input type="text" class="contact-form-text" placeholder="Your Phone">
+        <textarea class="contact-form-text" placeholder="Your Message" ></textarea>  
+        <button type="submit" class="contact-form-btn" value="send" onclick="alert('Sorry! At the moment we are completely booked.  Check our social media for updates.');" return() false;>Send</button>
+      </form>  
+    </div>
+</section>
 
 
 

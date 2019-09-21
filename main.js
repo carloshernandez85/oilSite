@@ -14,3 +14,27 @@ selectElement(".close").addEventListener("click", () => {
 
 // SCROLL, SCROLL, THE BUTTON, THE BUTTON, SCROLL SO SMOOTH LIKE THE 
 // BUTTER ON THE MUFFIN 
+
+function scrollToElement1() {
+  document.querySelector('#about-us').scrollIntoView({
+    behavior: 'smooth'
+  });
+};
+
+function scrollToElement2() {
+  document.querySelector('#services-wrapper').scrollIntoView({
+    behavior: 'smooth'
+  });
+};
+
+function scrollToElement3() {
+  document.querySelector('#tech-wrapper').scrollIntoView({
+    behavior: 'smooth'
+  });
+};
+
+function scrollToElement4() {
+  document.querySelector('#contact-us').scrollIntoView({
+    behavior: 'smooth'
+  });
+};
